@@ -4,12 +4,6 @@ import React from "react";
 // force the load of vue types
 createApp({});
 
-export const JsDoc: React.FC = () => {
-  return (
-    <>
-      <div />
-    </>
-  );
-};
+export const JsDoc: React.FC = () => <div />;
 
 export default JsDoc;

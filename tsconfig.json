@@ -1,16 +1,10 @@
 {
   "compilerOptions": {
     "target": "ES2015",
-    "module": "es2015",
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
     "jsx": "react",
-    "baseUrl": ".",
-    "paths": {
-      "rsg-components/*": [
-        "node_modules/react-styleguidist/lib/client/rsg-components/*"
-      ]
-    }
+    "baseUrl": "."
   },
   "include": ["./test.tsx"]
 }

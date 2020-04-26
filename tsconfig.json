@@ -3,8 +3,7 @@
     "target": "esnext",
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
-    "jsx": "react",
-    "baseUrl": ".",
+    "jsx": "preserve",
     "lib": ["esnext", "dom"],
     "types": []
   },

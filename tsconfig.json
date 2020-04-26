@@ -5,7 +5,8 @@
     "allowSyntheticDefaultImports": true,
     "jsx": "react",
     "baseUrl": ".",
-    "lib": ["esnext", "dom"]
+    "lib": ["esnext", "dom"],
+    "types": []
   },
   "include": ["./test*.tsx"]
 }
